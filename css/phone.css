@@ -1,0 +1,49 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+  }
+  /* -----------------hero---------------- */
+  .hero-title {
+    font-size: 36px;
+  }
+}
+/* -------------benefits------------- */
+@media screen and (max-width: 767px) {
+  .benefits-pre-text {
+    text-align: center;
+  }
+  .log {
+    display: block;
+    text-align: center;
+  }
+
+  .social-text {
+    text-align: center;
+    margin-top: 72px;
+  }
+  .subscribe-text {
+    margin-top: 72px;
+  }
+  /* -----------------footer---------------- */
+  .footer-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscribe-text {
+    text-align: center;
+  }
+  .subscribe-wrap {
+    flex-wrap: wrap;
+  }
+  .portfolio > .container {
+    max-width: 396px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .command > .container {
+    width: 294px;
+  }
+}
