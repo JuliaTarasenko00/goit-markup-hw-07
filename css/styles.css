@@ -135,6 +135,7 @@ transition: opacity var(--transition), pointer-events var(--transition), visibil
   line-height: 0;
   background-color: transparent;
 border: none;
+cursor: pointer;
 }
 .header-btn-icon-open {
   stroke: #2E2F42;
@@ -155,6 +156,7 @@ border: none;
   align-items: center;
   margin-left: auto;
   margin-bottom: 16px;
+  cursor: pointer;
 }
 
 .header-wrap-item:not(:last-child) {
