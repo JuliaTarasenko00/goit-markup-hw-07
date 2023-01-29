@@ -2,6 +2,17 @@
   .container {
     max-width: 428px;
   }
+
+}
+@media screen and (min-width: 392px) {
+  .modal {
+    width: 392px;
+    min-height: 586px;
+      position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  }
 }
 /* -------------benefits------------- */
 @media screen and (max-width: 767px) {

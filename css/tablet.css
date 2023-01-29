@@ -80,7 +80,10 @@ display: none;
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/herotb@2x.png);
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/herotb@2x.png);
   }
 }
   .hero-title {
@@ -129,7 +132,12 @@ display: none;
   .modal {
     width: 408px;
     min-height: 584px;
+     position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
   }
+ 
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   /* -----------header--------- */
