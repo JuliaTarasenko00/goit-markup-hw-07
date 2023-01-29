@@ -2,10 +2,6 @@
   .container {
     max-width: 428px;
   }
-  /* -----------------hero---------------- */
-  .hero-title {
-    font-size: 36px;
-  }
 }
 /* -------------benefits------------- */
 @media screen and (max-width: 767px) {
@@ -39,6 +35,9 @@
   }
   .portfolio > .container {
     max-width: 396px;
+  }
+  .about-list {
+    justify-content: center;
   }
 }
 

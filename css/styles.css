@@ -235,9 +235,17 @@ text-transform: capitalize;
   max-width: 428px;
   margin: 0 auto;
 }
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/heroph@2x.png);
+  }
+}
 
 .hero-title {
-  font-size: 25px;
+  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   color: var(--text-color);
@@ -568,7 +576,6 @@ width: 100%;
   margin-bottom: 72px;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
   gap: 24px;
 }
 .portfolio-btn {
@@ -601,9 +608,6 @@ width: 100%;
 .about-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  /* row-gap: 48px;
-  column-gap: 24px; */
   gap: 48px;
 }
 .about-item {
@@ -686,8 +690,8 @@ width: 100%;
   visibility: hidden;
 }
 .modal {
-  width: 408px;
-  min-height: 584px;
+  width: 392px;
+  min-height: 586px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);

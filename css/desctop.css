@@ -17,6 +17,14 @@
       ),
       url(../images/hero.png);
   }
+  @media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/hero@2x.png);
+  }
+}
   /* -------------benefits------------- */
   .benefits-item {
     width: calc((100% - 72px) / 4);
@@ -87,4 +95,13 @@
   .footer-social {
     margin-right: 80px;
   }
+    /* --------portfolio------- */
+  .about-list {
+    row-gap: 48px;
+    column-gap: 24px;
+  }
+  .about-item {
+    width: calc((100% - 48px) / 3);
+  }
 }
+
