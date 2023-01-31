@@ -134,7 +134,10 @@ display: none;
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   /* -----------header--------- */
   .contact {
-    margin-left: 118px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: auto;
+    align-items: start;
     flex-wrap: wrap;
   }
   .contact-link {
