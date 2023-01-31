@@ -4,14 +4,24 @@
   }
 
 }
-@media screen and (min-width: 392px) {
+@media screen and (max-width: 410px){
+  .backdrop{
+    padding: 96px 18px 114px 18px;
+  } }
+  @media screen and (min-width: 410px) {
+    
   .modal {
-    width: 392px;
-    min-height: 586px;
       position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
+  }
+  .user-text {
+    font-size: 12px;
+  }
+  .privacy-text {
+    font-size: 12px;
+    letter-spacing: 0.04em;
   }
 }
 /* -------------benefits------------- */
@@ -28,7 +38,7 @@
     text-align: center;
     margin-top: 72px;
   }
-  .subscribe-text {
+  .subscribe-footer {
     margin-top: 72px;
   }
   /* -----------------footer---------------- */

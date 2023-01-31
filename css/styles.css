@@ -119,8 +119,7 @@ body.no-scroll {
   height: 100%;
   background: #FFFFFF;
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-padding-bottom: 40px;
-padding-top: 40px;
+padding: 40px;
 z-index: 1000;
 transition: opacity var(--transition), pointer-events var(--transition), visibility var(--transition);
 }
@@ -142,8 +141,8 @@ cursor: pointer;
 }
 .header-btn-close {
   position: fixed;
-    top: 24px;
-    right: 24px;
+    top: 40px;
+    right: 40px;
   width: 24px; 
   height: 24px;
   padding: 0;
@@ -193,7 +192,6 @@ text-transform: capitalize;
 }
 .header-wrap-icon {
   display: flex;
-  justify-content: center;
   gap: 56px;
   margin-top: 38px;
 }
@@ -211,7 +209,7 @@ text-transform: capitalize;
   border-radius: 50%;
   fill: #f4f4fd; 
  }
- .header-wrap > .container {
+ .header-wrap > .content {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -688,7 +686,6 @@ width: 100%;
   width: 100%;
   height: 100%;
   background: rgba(46, 47, 66, 0.4);
-  padding: 96px 18px 114px 18px;
   transition: opacity var(--transition), pointer-events var(--transition),
     visibility var(--transition);
     overflow-y: scroll;
@@ -699,13 +696,16 @@ width: 100%;
   visibility: hidden;
 }
 .modal {
+  max-width: 392px;
+  width: 100%;
+  min-height: 584px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-
   transition: transform var(--transition);
-  padding: 24px;
+  
+  padding: 16px;
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(1.5);
@@ -752,7 +752,7 @@ width: 100%;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.33;
   letter-spacing: 0.04em;
   color: #8e8f99;
@@ -830,9 +830,9 @@ width: 100%;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 9px;
   line-height: 1.33;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   color: #757575;
   display: flex;
   align-items: center;

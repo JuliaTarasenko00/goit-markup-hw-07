@@ -6,6 +6,9 @@
   .contact {
     margin-left: auto;
   }
+  .contact-item:not(:last-child) {
+    margin-right: 40px;
+  }
   /* ----------hero------------- */
   .hero {
     padding-top: 188px;
