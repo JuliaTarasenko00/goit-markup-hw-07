@@ -2,7 +2,6 @@
   .container {
     max-width: 428px;
   }
-
 }
 @media screen and (max-width: 410px){
   .backdrop{
@@ -33,11 +32,10 @@
     display: block;
     text-align: center;
   }
-
-  .social-text {
-    text-align: center;
+.footer-social {
+  text-align: center;
     margin-top: 72px;
-  }
+}
   .subscribe-footer {
     margin-top: 72px;
   }
@@ -62,7 +60,7 @@
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .command > .container {
     width: 294px;
   }

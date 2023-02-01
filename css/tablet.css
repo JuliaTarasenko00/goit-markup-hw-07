@@ -70,7 +70,7 @@ display: none;
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/herotb.png);
+      url(../images/herotb.jpg);
   }
   @media (min-device-pixel-ratio: 2),
 (-webkit-min-device-pixel-ratio: 2),
@@ -80,7 +80,7 @@ display: none;
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    ), url(../images/herotb@2x.png);
+    ), url(../images/herotb@2x.jpg);
   }
 }
   .hero-title {
@@ -91,7 +91,8 @@ display: none;
   }
   /* -------------benefits------------- */
   .benefits-list {
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 72px;
   }
   .benefits-item {
     width: calc((100% - 24px) / 2);
@@ -99,8 +100,9 @@ display: none;
   /* ------------command--------- */
 
   .comand-list {
-    gap: 24px;
-  }
+    column-gap: 24px;
+    row-gap: 64px;
+}
   .comand-item {
     max-width: 264px;
     width: calc((100%-24px) / 2);
@@ -151,6 +153,9 @@ letter-spacing: 0.04em;
   .header-link.current::after {
     content: "";
     bottom: -75%;
+  }
+  .command > .container {
+    width: 582px;
   }
   /* -----------------footer---------------- */
   .ending > .container {

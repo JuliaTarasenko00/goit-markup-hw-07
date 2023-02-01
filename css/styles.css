@@ -230,7 +230,7 @@ text-transform: capitalize;
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/heroph.png);
+    url(../images/heroph.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -245,7 +245,7 @@ text-transform: capitalize;
     background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    ), url(../images/heroph@2x.png);
+    ), url(../images/heroph@2x.jpg);
   }
 }
 
@@ -359,6 +359,7 @@ width: 100%;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .command-text {
@@ -366,7 +367,8 @@ width: 100%;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--caption-color);
+  color: var(--caption-color); 
+  margin-bottom: 8px;
 }
 
 .text-list {
@@ -378,7 +380,7 @@ width: 100%;
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 8px;
+ 
 }
 .command-icon-item {
   width: 40px;
