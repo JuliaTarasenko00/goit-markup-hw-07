@@ -55,6 +55,9 @@
   .contact-link:focus {
     color: #404bbf;
   }
+  .header-btn-open {
+    display: none;
+  }
   .header-wrap {
     display: none;
   }
