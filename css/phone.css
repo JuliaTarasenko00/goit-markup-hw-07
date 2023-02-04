@@ -2,6 +2,15 @@
   .container {
     max-width: 428px;
   }
+  .header-wrap {
+    padding: 40px 25px;
+  }
+  .header-wrap-icon {
+    gap: 56px;
+  }
+  .header-wrap-contact .phone {
+    font-size: 36px;
+  }
 }
 @media screen and (max-width: 410px){
   .backdrop{
