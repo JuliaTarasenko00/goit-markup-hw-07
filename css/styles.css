@@ -171,7 +171,7 @@ margin-bottom: 40px;
 }
 .header-wrap-contact .phone {
   font-weight: 600;
-font-size: 30px;
+font-size: 8vw;
 line-height: 1.11;
 text-transform: capitalize;
  color: #4D5AE5; 
@@ -186,7 +186,7 @@ text-transform: capitalize;
 }
 .header-wrap-icon {
   display: flex;
-  gap: 46px;
+  gap: 13vw;
   margin-top: 38px;
 }
 .header-wrap-icon-item {
@@ -228,7 +228,7 @@ text-transform: capitalize;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 428px;
+  /* max-width: 428px; */
   margin: 0 auto;
 }
 @media (min-device-pixel-ratio: 2),
@@ -244,7 +244,7 @@ text-transform: capitalize;
 }
 
 .hero-title {
-  font-size: 36px;
+  font-size: 8vw;
   line-height: 1.11;
   text-align: center;
   color: var(--text-color);
@@ -712,6 +712,7 @@ width: 100%;
   width: 24px;
   height: 24px;
   box-sizing: border-box;
+  padding: 0;
   line-height: 0;
   border-radius: 50%;
   margin-left: auto;

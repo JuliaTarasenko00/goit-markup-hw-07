@@ -1,23 +1,87 @@
 @media screen and (min-width: 480px) {
   .container {
     max-width: 428px;
-  }
-  .header-wrap {
-    padding: 40px 25px;
-  }
+  }  
+  .header-wrap-contact .phone {
+    font-size: 36px;
+  } 
+  .hero-title {
+    font-size: 36px;
+  } 
   .header-wrap-icon {
     gap: 56px;
   }
-  .header-wrap-contact .phone {
-    font-size: 36px;
+}
+@media screen and (max-width: 767px) {
+ .log {
+      display: block;
+      text-align: center;
+    }
+    .benefits-pre-text {
+      text-align: center;
+    }
+  .footer-social {
+    text-align: center;
+      margin-top: 72px;
   }
+    .subscribe-footer {
+      margin-top: 72px;
+    }
+    .command > .container {
+      width: 294px;
+    }
+    /* -----------------footer---------------- */
+    .footer-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .subscribe-text {
+      text-align: center;
+    }
+    .subscribe-wrap {
+      flex-wrap: wrap;
+    }
+    .portfolio > .container {
+      max-width: 396px;
+    }
+    .about-list {
+      justify-content: center;
+    }
+}
+@media screen and (min-width: 350px){
+  .header-wrap {
+    padding: 40px 25px;
+  }
+}
+@media screen and (min-width: 429px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/herotb.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ), url(../images/herotb@2x.jpg);
+    }
+  }
+
 }
 @media screen and (max-width: 410px){
   .backdrop{
     padding: 96px 18px 114px 18px;
-  } }
-  @media screen and (min-width: 410px) {
-    
+  }
+ }
+  @media screen and (min-width: 410px) {  
   .modal {
       position: absolute;
   top: 50%;
@@ -30,47 +94,5 @@
   .privacy-text {
     font-size: 12px;
     letter-spacing: 0.04em;
-  }
-}
-/* -------------benefits------------- */
-@media screen and (max-width: 767px) {
-  .benefits-pre-text {
-    text-align: center;
-  }
-  .log {
-    display: block;
-    text-align: center;
-  }
-.footer-social {
-  text-align: center;
-    margin-top: 72px;
-}
-  .subscribe-footer {
-    margin-top: 72px;
-  }
-  /* -----------------footer---------------- */
-  .footer-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .subscribe-text {
-    text-align: center;
-  }
-  .subscribe-wrap {
-    flex-wrap: wrap;
-  }
-  .portfolio > .container {
-    max-width: 396px;
-  }
-  .about-list {
-    justify-content: center;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .command > .container {
-    width: 294px;
   }
 }
