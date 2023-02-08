@@ -13,22 +13,15 @@
   }
 }
 @media screen and (max-width: 767px) {
- .log {
-      display: block;
-      text-align: center;
-    }
-    .benefits-pre-text {
-      text-align: center;
-    }
+  .command > .container {
+    width: 294px;
+  }
   .footer-social {
     text-align: center;
       margin-top: 72px;
   }
     .subscribe-footer {
       margin-top: 72px;
-    }
-    .command > .container {
-      width: 294px;
     }
     /* -----------------footer---------------- */
     .footer-wrap {
@@ -43,11 +36,9 @@
     .subscribe-wrap {
       flex-wrap: wrap;
     }
+    /* -----------------portfolio---------------- */
     .portfolio > .container {
       max-width: 396px;
-    }
-    .about-list {
-      justify-content: center;
     }
 }
 @media screen and (min-width: 350px){

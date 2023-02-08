@@ -14,7 +14,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  width: 100%;
+  max-width: 100%;
 }
 /* .no-scroll {
   overflow: hidden;
@@ -97,6 +97,8 @@ body.no-scroll {
   text-transform: uppercase;
   color: var(--brand-color);
   margin-right: 76px;
+  display: block;
+      text-align: center;
 }
 
 .box-logo {
@@ -306,6 +308,7 @@ text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 }
 .benefits-text {
   font-weight: 500;
@@ -567,12 +570,12 @@ width: 100%;
   right: 24px;
   transform: translateY(-50%);
 }
+
 /* --------portfolio------- */
 .portfolio {
   padding-top: 48px;
   padding-bottom: 48px;
 }
-
 .portfolio-list {
   margin-bottom: 72px;
   display: flex;
@@ -609,6 +612,7 @@ width: 100%;
 .about-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 48px;
 }
 .about-item {
@@ -700,7 +704,6 @@ width: 100%;
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform var(--transition);
-  
   padding: 16px;
 }
 .backdrop.is-hidden .modal {
