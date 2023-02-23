@@ -14,7 +14,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  max-width: 100%;
 }
 /* .no-scroll {
   overflow: hidden;
@@ -698,17 +697,17 @@ width: 100%;
 .modal {
   max-width: 392px;
   width: 100%;
-  min-height: 584px;
+ 
+  max-height: 100%;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform var(--transition);
   padding: 16px;
+  overflow-y: auto;
 }
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(1.5);
-}
+
 .backdrop-btn {
   background: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
